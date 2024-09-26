@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "postinstall": "wrangler types --experimental-include-runtime",
+    "dev": "wrangler dev --port 3000",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.8"
+  }
+}
